@@ -50,8 +50,7 @@
           "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
           "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
         }
-      },
-      "patreon": {}
+      }
     },
     {
       "name": "Instagram",
