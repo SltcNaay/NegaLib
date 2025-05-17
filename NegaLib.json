@@ -1,71 +1,97 @@
 {
   "name": "NegaLib",
-  "identifier": "com.yann.source",
-  "iconURL": "https://raw.githubusercontent.com/SltcNaay/NegaLib/refs/heads/main/icon.jpeg",
   "subtitle": "My personal IPAs repository",
   "description": "NegaLib is my personal repository with up-to-date IPAs",
-  "tintColor": "#134AC1",
+  "iconURL": "https://raw.githubusercontent.com/SltcNaay/NegaLib/refs/heads/main/icon.jpeg",
   "website": "https://github.com/SltcNaay/NegaLib",
+  "tintColor": "#134AC1",
   "featuredApps": [
-    "com.spotify.client"
+    "com.spotify.client",
+    "com.burbn.instagram"
   ],
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
       "name": "Spotify",
-      "developerName": "Eevee",
       "bundleIdentifier": "com.spotify.client",
+      "developerName": "Eevee",
       "subtitle": "Cracked Spotify Premium",
       "localizedDescription": "Spotify IPA injected with premium tweak",
-      "tintColor": "#1cd464",
-      "category": "music",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1f/61/0c1f6144-af80-f395-3204-1d14fd8b2be7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
+      "tintColor": "#1cd464",
+      "category": "other",
+      "screenshots": [],
       "versions": [
         {
-          "version": "9.0.42",
-          "date": "2025-05-15T21:16:05Z",
-          "size": 85016193,
           "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
-          "localizedDescription": "Spotify v9.0.42 injected with EeveeSpotify"
+          "size": 85000000,
+          "version": "9.0.42",
+          "date": "2025-05-15T14:05:00+02:00",
+          "localizedDescription": "Spotify v9.0.42 injected with EeveeSpotify",
         }
       ],
       "appPermissions": {
-        "entitlements": [
-          "com.apple.developer.usernotifications.communication",
-          "com.apple.developer.group-session",
-          "com.apple.developer.networking.multicast",
-          "aps-environment",
-          "com.apple.developer.carplay-audio",
-          "com.apple.developer.associated-domains",
-          "com.apple.developer.networking.wifi-info",
-          "com.apple.developer.siri",
-          "com.apple.developer.healthkit",
-          "com.apple.developer.applesignin",
-          "keychain-access-groups",
-          "com.apple.developer.healthkit.access",
-          "com.apple.security.application-groups",
-          "get-task-allow",
-          "com.apple.developer.game-center"
-        ],
+        "entitlements": [],
         "privacy": {
-          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
           "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
-          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
           "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
-          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
-          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
-          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
           "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
-          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
           "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
           "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
-          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
-          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
+        }
+      },
+      "patreon": {}
+    },
+    {
+      "name": "Instagram",
+      "bundleIdentifier": "com.burbn.instagram",
+      "developerName": "objc_msgSend",
+      "subtitle": "Tweaked Instagram client",
+      "localizedDescription": "Instagram IPA injected with useful features",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/57/57/87/57578709-23d2-5fb2-487b-eff35e3aade4/Prod-0-0-1x_U007ephone-0-1-0-sRGB-85-220.png/1024x1024bb.jpg",
+      "tintColor": "#8108fc",
+      "category": "social",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://ipa.cypwn.xyz/ipas/Theta_1_4.ipa",
+          "size": 206200000,
+          "version": "370.0.0",
+          "date": "2025-03-10",
+          "localizedDescription": "Instagram tweak by objc_msgSend",
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAdvertisingAttributionReportEndpoint": "https://facebook.com",
+          "NSBluetoothAlwaysUsageDescription": "This allows your phone to find and connect to the glasses using a Bluetooth connection.",
+          "NSCalendarsUsageDescription": "This will let Instagram sync events to your calendar.",
+          "NSCameraUsageDescription": "Instagram uses your device's camera to do things like help you take photos, record videos and use effects.",
+          "NSContactsUsageDescription": "Instagram will use your contacts to suggest people and things you care about, and offer a better service. Your contacts will be periodically synced and securely stored on Instagram’s servers.",
+          "NSFaceIDUsageDescription": "Enable Face ID for quick and secure authentication on Instagram.",
+          "NSFocusStatusUsageDescription": "This allows Instagram to check to see if you’ve been missing notifications from friends. You can always change this later in settings.",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSLocationWhenInUseUsageDescription": "Instagram uses this to make some features work, personalize content and help people find places. You can change your preferences at any time in your device settings.",
+          "NSMicrophoneUsageDescription": "Instagram uses your device's microphone to do things like help you record videos and preview audio effects.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save photos and videos to your Camera Roll.",
+          "NSPhotoLibraryUsageDescription": "Instagram uses access to your camera roll to do things like help you share photos and videos to Instagram, apply effects and suggest photos and videos to share.",
+          "NSUserTrackingUsageDescription": "This allows Instagram to provide you with a better ads experience."
         }
       }
     }
-  ]
+  ],
+  "news": []
 }
