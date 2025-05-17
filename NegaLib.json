@@ -12,26 +12,19 @@
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
-      "name": "Spotify",
-      "bundleIdentifier": "com.spotify.client",
-      "marketplaceID": "",
+      "name": "EeveeSpotify",
       "developerName": "Eevee",
-      "subtitle": "Spotify Premium for free",
-      "localizedDescription": "Cracked version of Spotify Premium (can't download songs and no very high quality for audio)",
-      "iconURL": "https://i.imgur.com/LL1VUr4.png",
-      "tintColor": "#1cd464",
-      "category": "other",
-      "screenshots": [],
+      "bundleIdentifier": "com.spotify.client",
+      "localizedDescription": "",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1f/61/0c1f6144-af80-f395-3204-1d14fd8b2be7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
       "versions": [
         {
-          "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
-          "size": 85000000,
           "version": "9.0.42",
-          "buildVersion": null,
-          "date": "2025-05-17T17:18:00+02:00",
-          "localizedDescription": null,
-          "minOSVersion": null
-        }
+          "date": "2025-05-15T21:16:05Z",
+          "size": 85016193,
+          "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
+          "localizedDescription": "Spotify v9.0.42 injected with EeveeSpotify"
+        },
       ],
       "appPermissions": {
         "entitlements": [],
