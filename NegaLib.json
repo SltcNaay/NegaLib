@@ -25,30 +25,44 @@
           "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
           "localizedDescription": "Spotify v9.0.42 injected with EeveeSpotify"
         },
-      ],
+            ],
       "appPermissions": {
-        "entitlements": [],
+        "entitlements": [
+          "com.apple.developer.usernotifications.communication",
+          "com.apple.developer.group-session",
+          "com.apple.developer.networking.multicast",
+          "aps-environment",
+          "com.apple.developer.carplay-audio",
+          "com.apple.developer.associated-domains",
+          "com.apple.developer.networking.wifi-info",
+          "com.apple.developer.siri",
+          "com.apple.developer.healthkit",
+          "com.apple.developer.applesignin",
+          "keychain-access-groups",
+          "com.apple.developer.healthkit.access",
+          "com.apple.security.application-groups",
+          "get-task-allow",
+          "com.apple.developer.game-center"
+        ],
         "privacy": {
-          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
-          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you.",
-          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
-          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
-          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
-          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
-          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
-          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
           "NSAppleMusicUsageDescription": "This will let you play your imported music on Spotify.",
+          "NSBluetoothAlwaysUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
+          "NSBluetoothPeripheralUsageDescription": "This lets you unlock new ways of interacting with other devices compatible with Spotify via Bluetooth.",
           "NSCalendarsUsageDescription": "This lets Spotify view and add events to your calendar.",
-          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
           "NSCalendarsWriteOnlyAccessUsageDescription": "This lets Spotify add events to your calendar.",
-          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSCameraUsageDescription": "This lets you scan Spotify Codes.",
           "NSContactsUsageDescription": "This lets Spotify access calendars you may have shared with your contacts.",
-          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library."
+          "NSFaceIDUsageDescription": "This lets you set access restrictions using Face ID.",
+          "NSHealthShareUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSHealthUpdateUsageDescription": "Spotify will use HealthKit data to provide personalised audio recommendations for your workouts.",
+          "NSLocalNetworkUsageDescription": "This lets you listen on different devices. Spotify will also get access to local audio files.",
+          "NSMicrophoneUsageDescription": "This lets you control Spotify using your voice.",
+          "NSMotionUsageDescription": "We will use this to understand which audio motivates you most.",
+          "NSPhotoLibraryAddUsageDescription": "This lets you save images to your Photo Library.",
+          "NSPhotoLibraryUsageDescription": "This lets you select images from your Photo Library.",
+          "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
-      },
-      "patreon": {}
+      }
     }
-  ],
-  "news": []
+  ]
 }
