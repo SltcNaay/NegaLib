@@ -66,26 +66,6 @@
           "NSUserTrackingUsageDescription": "Your data will be used to deliver personalized ads or content to you."
         }
       }
-    },
-    {
-      "name": "Instagram",
-      "developerName": "objc_msgSend",
-      "bundleIdentifier": "com.burbn.instagram",
-      "subtitle": "Tweaked Instagram client",
-      "localizedDescription": "Instagram IPA injected with useful features",
-      "tintColor": "#8108fc",
-      "category": "social",
-      "iconURL": "https://ipa.cypwn.xyz/serve/icons/Theta_1_4.png",
-      "versions": [
-        {
-          "version": "370.0.0",
-          "date": "2025-03-11",
-          "size": 205520896,
-          "downloadURL": "https://ipa.cypwn.xyz/ipas/Theta_1_4.ipa",
-          "localizedDescription": "Instagram v370.0.0 injected with Theta 1.4"
-        }
-      ],
-      }
     }
   ]
 }
