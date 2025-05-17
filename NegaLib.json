@@ -4,12 +4,21 @@
   "iconURL": "https://raw.githubusercontent.com/SltcNaay/NegaLib/refs/heads/main/icon.jpeg",
   "subtitle": "My personal IPAs repository",
   "description": "NegaLib is my personal repository with up-to-date IPAs",
+  "tintColor": "#134AC1",
+  "website": "https://github.com/SltcNaay/NegaLib",
+  "featuredApps": [
+    "com.spotify.client"
+  ],
+  "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
       "name": "Spotify",
       "developerName": "Eevee",
       "bundleIdentifier": "com.spotify.client",
-      "localizedDescription": "",
+      "subtitle": "Cracked Spotify Premium",
+      "localizedDescription": "Spotify IPA injected with premium tweak",
+      "tintColor": "#1cd464",
+      "category": "music",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/0c/1f/61/0c1f6144-af80-f395-3204-1d14fd8b2be7/AppIcon-0-0-1x_U007emarketing-0-6-0-0-85-220.png/512x512bb.jpg",
       "versions": [
         {
