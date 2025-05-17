@@ -1,18 +1,12 @@
 {
   "name": "NegaLib",
+  "identifier": "com.yann.source",
+  "iconURL": "https://raw.githubusercontent.com/SltcNaay/NegaLib/refs/heads/main/icon.jpeg",
   "subtitle": "My personal IPAs repository",
   "description": "NegaLib is my personal repository with up-to-date IPAs",
-  "iconURL": "https://raw.githubusercontent.com/SltcNaay/NegaLib/refs/heads/main/icon.jpeg",
-  "website": "https://github.com/SltcNaay/NegaLib",
-  "patreonURL": "https://www.patreon.com/sidestore",
-  "tintColor": "#134AC1",
-  "featuredApps": [
-    "com.spotify.client"
-  ],
-  "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
     {
-      "name": "EeveeSpotify",
+      "name": "Spotify",
       "developerName": "Eevee",
       "bundleIdentifier": "com.spotify.client",
       "localizedDescription": "",
@@ -24,8 +18,8 @@
           "size": 85016193,
           "downloadURL": "https://github.com/whoeevee/EeveeSpotify/releases/download/swift5.9.7/EeveeSpotify-5.9.7-9.0.42.ipa",
           "localizedDescription": "Spotify v9.0.42 injected with EeveeSpotify"
-        },
-            ],
+        }
+      ],
       "appPermissions": {
         "entitlements": [
           "com.apple.developer.usernotifications.communication",
