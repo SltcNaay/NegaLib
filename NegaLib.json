@@ -7,7 +7,8 @@
   "tintColor": "#134AC1",
   "featuredApps": [
     "com.spotify.client",
-    "com.burbn.instagram"
+    "com.burbn.instagram",
+    "com.google.ios.youtube"
   ],
   "headerURL": "https://i.imgur.com/nhHq9ly.png",
   "apps": [
@@ -90,7 +91,41 @@
           "NSUserTrackingUsageDescription": "This allows Instagram to provide you with a better ads experience."
         }
       }
-    }
+    },
+    {
+      "name": "YouTube",
+      "bundleIdentifier": "com.google.ios.youtube",
+      "developerName": "dayanch96",
+      "subtitle": "YouTube with more features!",
+      "localizedDescription": "YouTube Lite is an enhanced YouTube app that offers a superior YouTube experience",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/39/40/c2/3940c2d2-2562-75ea-a251-a37393803bf5/logo_youtube_2024_q4_color-0-1x_U007emarketing-0-0-0-7-0-0-0-85-220-0.png/1024x1024bb.jpg",
+      "tintColor": "#fc0434",
+      "category": "entertainment",
+      "screenshots": [],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/SltcNaay/YTLite/releases/download/untagged-8332b62ee0754496f884/YouTubePlus_5.2b1.ipa",
+          "size": 115000000,
+          "version": "20.19.3",
+          "date": "2025-05-18T13:25:00+02:00",
+          "localizedDescription": "YouTube version 20.19.3 and YouTube Plus version 5.2b1",
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSCameraUsageDescription": "This lets you create videos using the app.",
+          "NSUserTrackingUsageDescription": "To personalize ads and provide ad measurement, YouTube will link activity from this app with activity from non-Google apps and websites.",
+          "NSBluetoothPeripheralUsageDescription": "YouTube needs bluetooth access to scan for nearby Cast devices.",
+          "NSLocalNetworkUsageDescription": "Access to your network allows YouTube to discover and connect to devices such as your TV.",
+          "NSAppleMusicUsageDescription": "This lets you add your own audio files to your videos.",
+          "NSMicrophoneUsageDescription": "This lets you include audio with your videos and search using your voice.",
+          "NSLocationWhenInUseUsageDescription": "Makes it easier for you to attach location information to your videos and live streams and allows for features such as improved recommendations and ads.",
+          "NSContactsUsageDescription": "Your contacts will be sent to YouTube servers to help you find friends to share videos with.",
+          "NSPhotoLibraryUsageDescription": "This lets you upload media you've already created."
+        }
+      }
+    },
   ],
   "news": []
 }
